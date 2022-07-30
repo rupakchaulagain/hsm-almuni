@@ -2348,6 +2348,18 @@ span.email-notes {
   padding-top: 30px;
 }
 
+#mu-marquee {
+  background-color: #f8f8f8;
+  display: inline;
+  float: left;
+  width: 100%;
+}
+
+#mu-marquee marquee {
+  background-color: red;
+  background: #01bafd;
+}
+
 /*----------------------------------------
  .End CSS
 ----------------------------------------*/

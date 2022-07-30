@@ -1,0 +1,80 @@
+#mu-marquee {
+  background-color: #01bafd;
+  float: left;
+  width: 102%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#mu-marquee .mu-marquee-area {
+  display: inline;
+  float: left;
+  width: 102%;
+}
+
+
+#mu-marquee .mu-marquee-area .marquee-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+#mu-marquee .mu-marquee-area .mu-marquee-top-left {
+
+  display: inline;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#mu-marquee .mu-marquee-area .mu-marquee-top-left span {
+  padding: 9px 15px;
+  background-color: #2A74A3;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.notice-triangle {
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  height: 10px;
+  width: 10px;
+  border-left: 10px solid #2A74A3;
+}
+
+
+#mu-marquee .mu-marquee-area .mu-marquee-top-left .mu-top-email {
+  display: inline;
+  float: left;
+  font-size: 14px;
+}
+
+#mu-marquee .mu-marquee-area .mu-marquee-top-left .mu-top-email i {
+  margin-right: 5px;
+}
+
+#mu-marquee .mu-marquee-area .mu-marquee-top-left .mu-top-phone {
+  border-left: 1px solid #ddd;
+  display: inline;
+  font-size: 14px;
+  float: left;
+  margin-left: 15px;
+  padding-left: 15px;
+}
+
+#mu-marquee .mu-marquee-area .mu-marquee-top-left .mu-top-phone i {
+  margin-right: 5px;
+}
+
+#mu-marquee .mu-marquee-area .mu-marquee-top-right {
+  background-color: #01bafd;
+  float: left;
+  text-align: right;
+  width: 100%;
+}
